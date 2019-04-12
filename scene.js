@@ -159,7 +159,7 @@ function createScene(options) {
   var scene = {
     gl:           gl,
     contextLost:  false,
-    pixelRatio:   options.pixelRatio || 1,
+    pixelRatio:   options.pixelRatio || window.devicePixelRatio,
     canvas:       canvas,
     selection:    selection,
     camera:       camera,
