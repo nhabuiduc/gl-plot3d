@@ -3,7 +3,7 @@ precision mediump float;
 uniform sampler2D accumBuffer;
 varying vec2 uv;
 
-const float n = 3.0;
+const float n = 2.0;
 
 float f(float x) {
   return pow(x, n);
